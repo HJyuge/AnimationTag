@@ -35,3 +35,4 @@ typedef NS_ENUM(NSUInteger ,TagViewStyle) {
 - (void)changeTagViewStyle;
 
 @end
+

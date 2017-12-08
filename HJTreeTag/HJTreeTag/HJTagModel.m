@@ -72,3 +72,4 @@ static NSInteger const maxStyle = 4;
     _tagAngleArray = angleArray;
 }
 @end
+

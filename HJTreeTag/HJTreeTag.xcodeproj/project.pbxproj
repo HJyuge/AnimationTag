@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D734D30B1FD7902600BACDF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D30A1FD7902600BACDF5 /* AppDelegate.m */; };
-		D734D30E1FD7902600BACDF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D30D1FD7902600BACDF5 /* ViewController.m */; };
-		D734D3131FD7902600BACDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D734D3121FD7902600BACDF5 /* Assets.xcassets */; };
-		D734D3161FD7902700BACDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D734D3141FD7902700BACDF5 /* LaunchScreen.storyboard */; };
-		D734D3191FD7902700BACDF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D3181FD7902700BACDF5 /* main.m */; };
-		D734D3211FD7905C00BACDF5 /* TreeTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D3201FD7905C00BACDF5 /* TreeTagViewController.m */; };
-		D734D3241FD7919E00BACDF5 /* HJTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D3231FD7919E00BACDF5 /* HJTagsView.m */; };
-		D734D3271FD79B6000BACDF5 /* HJTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D734D3261FD79B6000BACDF5 /* HJTagModel.m */; };
+		D74FF21F1FDA8BC500624101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF21E1FDA8BC500624101 /* AppDelegate.m */; };
+		D74FF2221FDA8BC600624101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF2211FDA8BC600624101 /* ViewController.m */; };
+		D74FF2271FDA8BC700624101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74FF2261FDA8BC700624101 /* Assets.xcassets */; };
+		D74FF22A1FDA8BC700624101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74FF2281FDA8BC700624101 /* LaunchScreen.storyboard */; };
+		D74FF22D1FDA8BC700624101 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF22C1FDA8BC700624101 /* main.m */; };
+		D74FF2351FDA8C3F00624101 /* TreeTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF2341FDA8C3F00624101 /* TreeTagViewController.m */; };
+		D74FF23B1FDA8C7000624101 /* HJTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF23A1FDA8C7000624101 /* HJTagsView.m */; };
+		D74FF23E1FDA8C8800624101 /* HJTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF23D1FDA8C8800624101 /* HJTagModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D734D3061FD7902600BACDF5 /* HJTreeTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTreeTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D734D3091FD7902600BACDF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D734D30A1FD7902600BACDF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D734D30C1FD7902600BACDF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D734D30D1FD7902600BACDF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D734D3121FD7902600BACDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D734D3151FD7902700BACDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D734D3171FD7902700BACDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D734D3181FD7902700BACDF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D734D31F1FD7905C00BACDF5 /* TreeTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeTagViewController.h; sourceTree = "<group>"; };
-		D734D3201FD7905C00BACDF5 /* TreeTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTagViewController.m; sourceTree = "<group>"; };
-		D734D3221FD7919E00BACDF5 /* HJTagsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTagsView.h; sourceTree = "<group>"; };
-		D734D3231FD7919E00BACDF5 /* HJTagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTagsView.m; sourceTree = "<group>"; };
-		D734D3251FD79B6000BACDF5 /* HJTagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTagModel.h; sourceTree = "<group>"; };
-		D734D3261FD79B6000BACDF5 /* HJTagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTagModel.m; sourceTree = "<group>"; };
+		D74FF21A1FDA8BC500624101 /* HJTreeTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTreeTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74FF21D1FDA8BC500624101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74FF21E1FDA8BC500624101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74FF2201FDA8BC500624101 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74FF2211FDA8BC600624101 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74FF2261FDA8BC700624101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74FF2291FDA8BC700624101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74FF22B1FDA8BC700624101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FF22C1FDA8BC700624101 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74FF2331FDA8C3F00624101 /* TreeTagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeTagViewController.h; sourceTree = "<group>"; };
+		D74FF2341FDA8C3F00624101 /* TreeTagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeTagViewController.m; sourceTree = "<group>"; };
+		D74FF2391FDA8C7000624101 /* HJTagsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTagsView.h; sourceTree = "<group>"; };
+		D74FF23A1FDA8C7000624101 /* HJTagsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTagsView.m; sourceTree = "<group>"; };
+		D74FF23C1FDA8C8800624101 /* HJTagModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJTagModel.h; sourceTree = "<group>"; };
+		D74FF23D1FDA8C8800624101 /* HJTagModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTagModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D734D3031FD7902600BACDF5 /* Frameworks */ = {
+		D74FF2171FDA8BC500624101 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,39 +46,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D734D2FD1FD7902600BACDF5 = {
+		D74FF2111FDA8BC400624101 = {
 			isa = PBXGroup;
 			children = (
-				D734D3081FD7902600BACDF5 /* HJTreeTag */,
-				D734D3071FD7902600BACDF5 /* Products */,
+				D74FF21C1FDA8BC500624101 /* HJTreeTag */,
+				D74FF21B1FDA8BC500624101 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D734D3071FD7902600BACDF5 /* Products */ = {
+		D74FF21B1FDA8BC500624101 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D734D3061FD7902600BACDF5 /* HJTreeTag.app */,
+				D74FF21A1FDA8BC500624101 /* HJTreeTag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D734D3081FD7902600BACDF5 /* HJTreeTag */ = {
+		D74FF21C1FDA8BC500624101 /* HJTreeTag */ = {
 			isa = PBXGroup;
 			children = (
-				D734D3091FD7902600BACDF5 /* AppDelegate.h */,
-				D734D30A1FD7902600BACDF5 /* AppDelegate.m */,
-				D734D30C1FD7902600BACDF5 /* ViewController.h */,
-				D734D30D1FD7902600BACDF5 /* ViewController.m */,
-				D734D31F1FD7905C00BACDF5 /* TreeTagViewController.h */,
-				D734D3201FD7905C00BACDF5 /* TreeTagViewController.m */,
-				D734D3221FD7919E00BACDF5 /* HJTagsView.h */,
-				D734D3231FD7919E00BACDF5 /* HJTagsView.m */,
-				D734D3251FD79B6000BACDF5 /* HJTagModel.h */,
-				D734D3261FD79B6000BACDF5 /* HJTagModel.m */,
-				D734D3121FD7902600BACDF5 /* Assets.xcassets */,
-				D734D3141FD7902700BACDF5 /* LaunchScreen.storyboard */,
-				D734D3171FD7902700BACDF5 /* Info.plist */,
-				D734D3181FD7902700BACDF5 /* main.m */,
+				D74FF21D1FDA8BC500624101 /* AppDelegate.h */,
+				D74FF21E1FDA8BC500624101 /* AppDelegate.m */,
+				D74FF2201FDA8BC500624101 /* ViewController.h */,
+				D74FF2211FDA8BC600624101 /* ViewController.m */,
+				D74FF2331FDA8C3F00624101 /* TreeTagViewController.h */,
+				D74FF2341FDA8C3F00624101 /* TreeTagViewController.m */,
+				D74FF2391FDA8C7000624101 /* HJTagsView.h */,
+				D74FF23A1FDA8C7000624101 /* HJTagsView.m */,
+				D74FF23C1FDA8C8800624101 /* HJTagModel.h */,
+				D74FF23D1FDA8C8800624101 /* HJTagModel.m */,
+				D74FF2261FDA8BC700624101 /* Assets.xcassets */,
+				D74FF2281FDA8BC700624101 /* LaunchScreen.storyboard */,
+				D74FF22B1FDA8BC700624101 /* Info.plist */,
+				D74FF22C1FDA8BC700624101 /* main.m */,
 			);
 			path = HJTreeTag;
 			sourceTree = "<group>";
@@ -86,13 +86,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D734D3051FD7902600BACDF5 /* HJTreeTag */ = {
+		D74FF2191FDA8BC500624101 /* HJTreeTag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D734D31C1FD7902700BACDF5 /* Build configuration list for PBXNativeTarget "HJTreeTag" */;
+			buildConfigurationList = D74FF2301FDA8BC700624101 /* Build configuration list for PBXNativeTarget "HJTreeTag" */;
 			buildPhases = (
-				D734D3021FD7902600BACDF5 /* Sources */,
-				D734D3031FD7902600BACDF5 /* Frameworks */,
-				D734D3041FD7902600BACDF5 /* Resources */,
+				D74FF2161FDA8BC500624101 /* Sources */,
+				D74FF2171FDA8BC500624101 /* Frameworks */,
+				D74FF2181FDA8BC500624101 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -100,25 +100,25 @@
 			);
 			name = HJTreeTag;
 			productName = HJTreeTag;
-			productReference = D734D3061FD7902600BACDF5 /* HJTreeTag.app */;
+			productReference = D74FF21A1FDA8BC500624101 /* HJTreeTag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D734D2FE1FD7902600BACDF5 /* Project object */ = {
+		D74FF2121FDA8BC400624101 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = SpeakNow;
 				TargetAttributes = {
-					D734D3051FD7902600BACDF5 = {
-						CreatedOnToolsVersion = 9.1;
+					D74FF2191FDA8BC500624101 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D734D3011FD7902600BACDF5 /* Build configuration list for PBXProject "HJTreeTag" */;
+			buildConfigurationList = D74FF2151FDA8BC400624101 /* Build configuration list for PBXProject "HJTreeTag" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,49 +126,49 @@
 				en,
 				Base,
 			);
-			mainGroup = D734D2FD1FD7902600BACDF5;
-			productRefGroup = D734D3071FD7902600BACDF5 /* Products */;
+			mainGroup = D74FF2111FDA8BC400624101;
+			productRefGroup = D74FF21B1FDA8BC500624101 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D734D3051FD7902600BACDF5 /* HJTreeTag */,
+				D74FF2191FDA8BC500624101 /* HJTreeTag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D734D3041FD7902600BACDF5 /* Resources */ = {
+		D74FF2181FDA8BC500624101 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D734D3161FD7902700BACDF5 /* LaunchScreen.storyboard in Resources */,
-				D734D3131FD7902600BACDF5 /* Assets.xcassets in Resources */,
+				D74FF22A1FDA8BC700624101 /* LaunchScreen.storyboard in Resources */,
+				D74FF2271FDA8BC700624101 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D734D3021FD7902600BACDF5 /* Sources */ = {
+		D74FF2161FDA8BC500624101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D734D30E1FD7902600BACDF5 /* ViewController.m in Sources */,
-				D734D3211FD7905C00BACDF5 /* TreeTagViewController.m in Sources */,
-				D734D3271FD79B6000BACDF5 /* HJTagModel.m in Sources */,
-				D734D3191FD7902700BACDF5 /* main.m in Sources */,
-				D734D3241FD7919E00BACDF5 /* HJTagsView.m in Sources */,
-				D734D30B1FD7902600BACDF5 /* AppDelegate.m in Sources */,
+				D74FF2221FDA8BC600624101 /* ViewController.m in Sources */,
+				D74FF2351FDA8C3F00624101 /* TreeTagViewController.m in Sources */,
+				D74FF23E1FDA8C8800624101 /* HJTagModel.m in Sources */,
+				D74FF22D1FDA8BC700624101 /* main.m in Sources */,
+				D74FF23B1FDA8C7000624101 /* HJTagsView.m in Sources */,
+				D74FF21F1FDA8BC500624101 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D734D3141FD7902700BACDF5 /* LaunchScreen.storyboard */ = {
+		D74FF2281FDA8BC700624101 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D734D3151FD7902700BACDF5 /* Base */,
+				D74FF2291FDA8BC700624101 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -176,7 +176,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D734D31A1FD7902700BACDF5 /* Debug */ = {
+		D74FF22E1FDA8BC700624101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,14 +224,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		D734D31B1FD7902700BACDF5 /* Release */ = {
+		D74FF22F1FDA8BC700624101 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,63 +273,61 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		D734D31D1FD7902700BACDF5 /* Debug */ = {
+		D74FF2311FDA8BC700624101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HJTreeTag/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sharetasty.com.HJTreeTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D734D31E1FD7902700BACDF5 /* Release */ = {
+		D74FF2321FDA8BC700624101 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HJTreeTag/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sharetasty.com.HJTreeTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D734D3011FD7902600BACDF5 /* Build configuration list for PBXProject "HJTreeTag" */ = {
+		D74FF2151FDA8BC400624101 /* Build configuration list for PBXProject "HJTreeTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D734D31A1FD7902700BACDF5 /* Debug */,
-				D734D31B1FD7902700BACDF5 /* Release */,
+				D74FF22E1FDA8BC700624101 /* Debug */,
+				D74FF22F1FDA8BC700624101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D734D31C1FD7902700BACDF5 /* Build configuration list for PBXNativeTarget "HJTreeTag" */ = {
+		D74FF2301FDA8BC700624101 /* Build configuration list for PBXNativeTarget "HJTreeTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D734D31D1FD7902700BACDF5 /* Debug */,
-				D734D31E1FD7902700BACDF5 /* Release */,
+				D74FF2311FDA8BC700624101 /* Debug */,
+				D74FF2321FDA8BC700624101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D734D2FE1FD7902600BACDF5 /* Project object */;
+	rootObject = D74FF2121FDA8BC400624101 /* Project object */;
 }

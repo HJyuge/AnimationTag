@@ -2,13 +2,12 @@
 //  AppDelegate.m
 //  HJTreeTag
 //
-//  Created by DaCang on 2017/12/6.
+//  Created by DaCang on 2017/12/8.
 //  Copyright © 2017年 SpeakNow. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "TreeTagViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -17,12 +16,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    [self.window makeKeyAndVisible];
-    self.window.backgroundColor = [UIColor whiteColor];
-    TreeTagViewController *treeTagVC = [[TreeTagViewController alloc]init];
-    self.window.rootViewController = treeTagVC;
-    return YES;
+    // Override point for customization after application launch.
+    (NSDictionary *)launchOptions {
+        self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        [self.window makeKeyAndVisible];
+        self.window.backgroundColor = [UIColor whiteColor];
+        TreeTagViewController *treeTagVC = [[TreeTagViewController alloc]init];
+        self.window.rootViewController = treeTagVC;
+        return YES;
 }
 
 

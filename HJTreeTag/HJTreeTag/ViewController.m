@@ -2,7 +2,7 @@
 //  ViewController.m
 //  HJTreeTag
 //
-//  Created by DaCang on 2017/12/6.
+//  Created by DaCang on 2017/12/8.
 //  Copyright © 2017年 SpeakNow. All rights reserved.
 //
 
@@ -16,8 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 

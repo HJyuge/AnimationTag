@@ -34,3 +34,4 @@ typedef void(^longPressBlock)(HJTagsView *);
 -(void)hideTagsViewWithAnimated:(BOOL )animated;
 
 @end
+

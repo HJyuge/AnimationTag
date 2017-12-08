@@ -135,7 +135,7 @@ NSString *const kAnimationKeyHide = @"hide";
     shapeLayer.fillColor = [UIColor whiteColor].CGColor;
     shapeLayer.bounds = CGRectMake(0, 0, kCenterPointRadius*2, kCenterPointRadius*2);
     shapeLayer.position = CGPointMake(self.layer.bounds.size.width/2, self.layer.bounds.size.height/2);
-   // shapeLayer.opacity = 0;
+    // shapeLayer.opacity = 0;
     return shapeLayer;
 }
 
@@ -174,7 +174,7 @@ NSString *const kAnimationKeyHide = @"hide";
         endPoint = CGPointMake(startPoint.x-textSize.width  - kTextLayerHorizontalPadding, startPoint.y);
         [path addLineToPoint:endPoint];
     }
-
+    
     lineLayer.path = path.CGPath;
     //添加这句话不显示阴影
     //lineLayer.shadowPath = path.CGPath;
@@ -226,7 +226,7 @@ NSString *const kAnimationKeyHide = @"hide";
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTap:)];
     UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(longPress:)];
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(didPan:)];
-
+    
     [self addGestureRecognizer:tapGesture];
     [self addGestureRecognizer:longPressGesture];
     [self addGestureRecognizer:panGesture];
@@ -309,7 +309,7 @@ NSString *const kAnimationKeyHide = @"hide";
             break;
         }
         case UIGestureRecognizerStateEnded:{
-
+            
             //最后保存中心点的相对坐标
             CGFloat x,y;
             x = self.center.x/self.superview.bounds.size.width;
@@ -493,7 +493,7 @@ NSString *const kAnimationKeyHide = @"hide";
         }
         [CATransaction commit];
     }];
-
+    
     [CATransaction commit];
 }
 
@@ -513,3 +513,4 @@ NSString *const kAnimationKeyHide = @"hide";
     }
 }
 @end
+
