@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B57A5B120D9521600942814 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B57A5B020D9521600942814 /* TestViewController.m */; };
 		D74FF21F1FDA8BC500624101 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF21E1FDA8BC500624101 /* AppDelegate.m */; };
 		D74FF2221FDA8BC600624101 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74FF2211FDA8BC600624101 /* ViewController.m */; };
 		D74FF2271FDA8BC700624101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74FF2261FDA8BC700624101 /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B57A5AF20D9521600942814 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1B57A5B020D9521600942814 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D74FF21A1FDA8BC500624101 /* HJTreeTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTreeTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74FF21D1FDA8BC500624101 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D74FF21E1FDA8BC500624101 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				D74FF21E1FDA8BC500624101 /* AppDelegate.m */,
 				D74FF2201FDA8BC500624101 /* ViewController.h */,
 				D74FF2211FDA8BC600624101 /* ViewController.m */,
+				1B57A5AF20D9521600942814 /* TestViewController.h */,
+				1B57A5B020D9521600942814 /* TestViewController.m */,
 				D74FF2331FDA8C3F00624101 /* TreeTagViewController.h */,
 				D74FF2341FDA8C3F00624101 /* TreeTagViewController.m */,
 				D74FF2391FDA8C7000624101 /* HJTagsView.h */,
@@ -155,6 +160,7 @@
 			files = (
 				D74FF2221FDA8BC600624101 /* ViewController.m in Sources */,
 				D74FF2351FDA8C3F00624101 /* TreeTagViewController.m in Sources */,
+				1B57A5B120D9521600942814 /* TestViewController.m in Sources */,
 				D74FF23E1FDA8C8800624101 /* HJTagModel.m in Sources */,
 				D74FF22D1FDA8BC700624101 /* main.m in Sources */,
 				D74FF23B1FDA8C7000624101 /* HJTagsView.m in Sources */,
